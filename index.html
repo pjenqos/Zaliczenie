@@ -1,3 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Website</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> <!-- Optional: Your custom styles -->
+</head>
+<body>
+
+    <!-- Sekcja navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container">
+                    <a class="navbar-brand" href="#">Gym</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Classes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+<!-- Sekcja Hero -->
+
+<header class="hero-section text-center text-white d-flex align-items-center" style="background: var(--color-1); height: 100vh;">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="text-left">
+                <h1 class="display-1">Enjoy <br>Fitness <br>in our Gym</h1>
+                <p class="lead">Build your body with the best trainers</p>
+                <a href="#" class="btn btn-primary btn-lg">Get Started</a>
+            </div>
+            <img src="img/1mezczyzna.jpg" alt="Small Image" class="small-image">
+        </div>
+    </header>
+
+    <!-- Sekcja Features -->
+    
+    <section class="features py-5">
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col-md-3">
+                            <img src="img/pulse.png" alt="Health Image" class="feature-image mb-3">
+                            <div class="icon mb-3"><i class="fas fa-heartbeat fa-3x"></i></div>
+                            <h3>Health</h3>
+                            <p>Promoting healthy lifestyles.</p>
+                        </div>
+                        <div class="col-md-3">
+                            <img src="img/barbell.png" alt="Confidence Image" class="feature-image mb-3">
+                            <div class="icon mb-3"><i class="fas fa-smile fa-3x"></i></div>
+                            <h3>Confidence</h3>
+                            <p>Boost your self-confidence.</p>
+                        </div>
+                        <div class="col-md-3">
+                            <img src="img/brain.png" alt="Brain Activity Image" class="feature-image mb-3">
+                            <div class="icon mb-3"><i class="fas fa-brain fa-3x"></i></div>
+                            <h3>Brain Activity</h3>
+                            <p>Improve your mental sharpness.</p>
+                        </div>
+                        <div class="col-md-3">
+                            <img src="img/applause.png" alt="New Friends Image" class="feature-image mb-3">
+                            <div class="icon mb-3"><i class="fas fa-users fa-3x"></i></div>
+                            <h3>New Friends</h3>
+                            <p>Meet new people and make friends.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
 <!-- Sekcja classes -->
 
 <section class="classes py-5 bg-light">
@@ -34,9 +117,7 @@
         </div>
     </div>
 </section>
-
 <!-- Sekcja Discount -->
-
 <section class="discount py-5 bg-light">
             <div class="container d-flex align-items-center justify-content-between">
                 <div class="discount-content">
@@ -47,3 +128,7 @@
                 <img src="img/3silacz.png" alt="Discount Image" class="discount-image" >
             </div>
         </section>
+
+</body>
+</html>
+
