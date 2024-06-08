@@ -1,125 +1,125 @@
-:root {
-        --color-1: #F6CE55; /* Background (yellow shade) */
-        --color-2: #FFFFFF; /* Header background (white) */
-        --color-3: #1C1C1C; /* Header text (black) */
-        --color-4: #FF9800; /* Highlights (orange) */
-        --color-5: #FF7373; /* Icons (pink) */
-        --color-6: #729BFF; /* Icons (blue) */
-        --color-7: #F5BF53; /* Section highlights (yellow) */
-        --color-8: #333333; /* Text (black) */
-        --color-9: #252525; /* Section background (dark gray) */
-        --color-10: #3D8CFF; /* Buttons (blue) */
-        --color-11: #FF8650; /* Buttons (orange) */
-    }
-    
-    body {
-        background-color: var(--color-1);
-        color: var(--color-8);
-    }
-    
-    .navbar {
-        background-color: var(--color-2);
-    }
-    
-    .navbar-brand, .navbar-nav .nav-link {
-        color: var(--color-3) !important;
-    }
-    
-    .hero-section {
-        background-color: var(--color-2);
-    }
-    
-    .hero-section h1 {
-        color: var(--color-3);
-    }
-    
-    .hero-section p {
-        color: var(--color-8);
-    }
-    
-    .hero-section .btn {
-        background-color: var(--color-10);
-        border: none;
-    }
-    
-    .hero-section .btn:hover {
-        background-color: var(--color-11);
-    }
-    
-    .features {
-        background-color: var(--color-2);
-    }
-    
-    .features .icon {
-        color: var(--color-4);
-    }
-    
-    .features .col-md-4:nth-child(2) .icon {
-        color: var(--color-6);
-    }
-    
-    .features .col-md-4:nth-child(3) .icon {
-        color: var(--color-5);
-    }
-    
-    .classes {
-        background-color: var(--color-1);
-    }
-    
-    .classes .card {
-        background-color: var(--color-2);
-    }
-    
-    .classes .card-title {
-        color: var(--color-8);
-    }
-    
-    .classes .btn {
-        background-color: var(--color-10);
-        border: none;
-    }
-    
-    .classes .btn:hover {
-        background-color: var(--color-11);
-    }
-    
-    .testimonials {
-        background-color: var(--color-9);
-        color: var(--color-2);
-    }
-    
-    footer {
-        background-color: var(--color-9);
-        color: var(--color-2);
-    }
-    
-    footer p {
-        margin: 0;
-    }
-    
-    .small-image {
-        border-radius: 10px; /* Add border radius */
-    }
-    
-    
-    
-    .feature-image {
-        max-width: 100px;
-        margin-bottom: 15px;
-    }
-    
-    .discount-image {
-        max-width: 40%;
-        transform: scale(0.6); /* Reduce size by 20% */
-        border-radius: 10px; /* Add border radius */
-    }
-    
-    .discount {
-        background-image: url('img/falki\ pod\ biegacza.png'); /* Add your background image path here */
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        color: #fff; /* Ensure text is readable */
-    
-    
-    }
+:root {
+    --color-1: #F6CE55; /* Background (yellow shade) */
+    --color-2: #FFFFFF; /* Header background (white) */
+    --color-3: #1C1C1C; /* Header text (black) */
+    --color-4: #FF9800; /* Highlights (orange) */
+    --color-5: #FF7373; /* Icons (pink) */
+    --color-6: #729BFF; /* Icons (blue) */
+    --color-7: #F5BF53; /* Section highlights (yellow) */
+    --color-8: #333333; /* Text (black) */
+    --color-9: #252525; /* Section background (dark gray) */
+    --color-10: #3D8CFF; /* Buttons (blue) */
+    --color-11: #FF8650; /* Buttons (orange) */
+}
+
+body {
+    background-color: var(--color-1);
+    color: var(--color-8);
+}
+
+.navbar {
+    background-color: var(--color-2);
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+    color: var(--color-3) !important;
+}
+
+.hero-section {
+    background-color: var(--color-2);
+}
+
+.hero-section h1 {
+    color: var(--color-3);
+}
+
+.hero-section p {
+    color: var(--color-8);
+}
+
+.hero-section .btn {
+    background-color: var(--color-10);
+    border: none;
+}
+
+.hero-section .btn:hover {
+    background-color: var(--color-11);
+}
+
+.features {
+    background-color: var(--color-2);
+}
+
+.features .icon {
+    color: var(--color-4);
+}
+
+.features .col-md-4:nth-child(2) .icon {
+    color: var(--color-6);
+}
+
+.features .col-md-4:nth-child(3) .icon {
+    color: var(--color-5);
+}
+
+.classes {
+    background-color: var(--color-1);
+}
+
+.classes .card {
+    background-color: var(--color-2);
+}
+
+.classes .card-title {
+    color: var(--color-8);
+}
+
+.classes .btn {
+    background-color: var(--color-10);
+    border: none;
+}
+
+.classes .btn:hover {
+    background-color: var(--color-11);
+}
+
+.testimonials {
+    background-color: var(--color-9);
+    color: var(--color-2);
+}
+
+footer {
+    background-color: var(--color-9);
+    color: var(--color-2);
+}
+
+footer p {
+    margin: 0;
+}
+
+.small-image {
+    border-radius: 10px; /* Add border radius */
+}
+
+
+
+.feature-image {
+    max-width: 100px;
+    margin-bottom: 15px;
+}
+
+.discount-image {
+    max-width: 40%;
+    transform: scale(0.6); /* Reduce size by 20% */
+    border-radius: 10px; /* Add border radius */
+}
+
+.discount {
+    background-image: url('img/falki\ pod\ biegacza.png'); /* Add your background image path here */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff; /* Ensure text is readable */
+
+
+}
