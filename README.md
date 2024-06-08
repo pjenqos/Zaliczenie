@@ -3,5 +3,5 @@
 **Grupa nr 5**
 - Jakub Piękoś - kierownik
 - Kuba Gąsiorowski
-- Anna Cywińska - Flak
+- Anna Cywińska-Flak
 - Krystian Rudowski
